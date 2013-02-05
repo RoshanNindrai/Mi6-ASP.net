@@ -1,0 +1,90 @@
+INFO 2013-01-23 08:26:01 – User fidda Logged in.
+INFO 2013-01-23 08:26:04 – User fidda logged out
+INFO 2013-01-23 08:26:57 – User dani Logged in.
+WARN 2013-01-23 08:27:34 – user :dani tried to view the job for user name raj
+INFO 2013-01-23 08:27:38 – user :dani viewed job of user name daniyal
+WARN 2013-01-23 08:27:40 – user :dani deleted a job for user name daniyal
+INFO 2013-01-23 08:28:20 – User dani Logged in.
+INFO 2013-01-23 08:28:36 – user :dani inserted a job for user name daniyal Current Mission: asdasd Target Name: asdasd Briefing : asdasdasd
+INFO 2013-01-23 08:28:39 – User dani logged out
+INFO 2013-01-23 08:29:52 – User fidda Logged in.
+INFO 2013-01-23 08:29:54 – User fidda logged out
+INFO 2013-01-23 08:30:11 – User fidda Logged in.
+INFO 2013-01-23 08:30:15 – User fidda logged out
+INFO 2013-01-23 08:30:40 – User fidda Logged in.
+INFO 2013-01-23 08:30:44 – User fidda logged out
+INFO 2013-01-23 08:48:10 – User Roshan Logged in.
+INFO 2013-01-23 08:48:23 – User Roshan logged out
+INFO 2013-01-23 09:07:21 – User Roshan Logged in.
+INFO 2013-01-23 09:18:48 – User dani Logged in.
+INFO 2013-01-23 09:19:11 – User dani logged out
+INFO 2013-01-24 11:36:00 – User Roshan Logged in.
+INFO 2013-01-24 11:36:06 – User Roshan Logged in.
+INFO 2013-01-24 11:36:28 – User Roshan logged out
+INFO 2013-01-24 11:36:37 – User dani Logged in.
+INFO 2013-01-24 11:37:12 – User dani logged out
+INFO 2013-01-24 11:38:17 – User dani Logged in.
+INFO 2013-01-24 11:38:28 – User dani Logged in.
+INFO 2013-01-24 11:38:38 – user :dani viewed job of user name daniyal
+INFO 2013-01-24 11:38:39 – user :dani viewed job of user name daniyal
+INFO 2013-01-24 11:39:46 – User dani logged out
+INFO 2013-01-24 11:40:10 – User fidda Logged in.
+INFO 2013-01-24 11:40:51 – User dani Logged in.
+INFO 2013-01-24 11:45:06 – User dani logged out
+INFO 2013-01-26 11:41:20 – User fidda Logged in.
+INFO 2013-01-26 11:41:25 – User fidda logged out
+INFO 2013-01-26 11:41:31 – User dani Logged in.
+WARN 2013-01-26 11:42:52 – user :dani tried to view the job for user name fidda
+WARN 2013-01-26 11:42:57 – user :dani tried to view the job for user name dani
+INFO 2013-01-26 11:43:02 – user :dani viewed job of user name daniyal
+WARN 2013-01-26 11:43:04 – user :dani deleted a job for user name daniyal
+INFO 2013-01-26 11:43:13 – User dani logged out
+INFO 2013-01-26 11:43:20 – User daniyal Logged in.
+INFO 2013-01-26 11:43:27 – User daniyal logged out
+INFO 2013-01-26 11:43:33 – User dani Logged in.
+INFO 2013-01-26 11:44:02 – user :dani inserted a job for user name daniyal Current Mission: 12 Target Name: 12 Briefing : 12
+INFO 2013-01-26 11:44:06 – User dani logged out
+INFO 2013-01-26 05:53:22 – User Roshan Logged in.
+INFO 2013-01-26 05:53:25 – User Roshan logged out
+INFO 2013-01-26 05:58:12 – User Roshan Logged in.
+INFO 2013-01-26 06:01:41 – User Roshan logged out
+INFO 2013-01-26 06:01:41 – User Roshan logged out
+INFO 2013-01-26 06:01:42 – User Roshan logged out
+INFO 2013-01-26 06:13:55 – User Roshan Logged in.
+INFO 2013-01-26 06:15:28 – User Roshan Logged in.
+INFO 2013-01-26 06:15:30 – User Roshan logged out
+INFO 2013-01-26 06:15:35 – User Roshan Logged in.
+INFO 2013-01-26 06:41:21 – User Roshan Logged in.
+INFO 2013-01-26 06:43:56 – User Roshan Logged in.
+INFO 2013-01-26 06:43:59 – User Roshan logged out
+INFO 2013-01-26 06:44:03 – User Roshan Logged in.
+INFO 2013-01-26 06:44:21 – user :Roshan created a new user account user_name: vivek of status: Agent name: asdasd
+INFO 2013-01-26 06:44:24 – User Roshan logged out
+INFO 2013-01-26 06:44:29 – User vivek Logged in.
+INFO 2013-01-26 06:44:31 – User vivek logged out
+INFO 2013-01-26 06:47:06 – User dani Logged in.
+INFO 2013-01-26 06:47:48 – user :dani inserted a job for user name daniyal Current Mission: asd Target Name: asd Briefing : asd
+INFO 2013-01-26 06:48:00 – User dani logged out
+INFO 2013-01-26 06:48:11 – User dani Logged in.
+INFO 2013-01-26 06:48:27 – user :dani viewed job of user name daniyal
+INFO 2013-01-26 06:48:30 – User dani logged out
+INFO 2013-01-26 06:48:38 – User daniyal Logged in.
+INFO 2013-01-26 06:48:41 – User daniyal logged out
+INFO 2013-01-26 07:48:09 – User M1 Logged in.
+INFO 2013-01-26 07:49:44 – User M1 Logged in.
+INFO 2013-01-26 07:50:11 – User M1 logged out
+INFO 2013-01-26 07:50:12 – User M1 logged out
+INFO 2013-01-26 08:16:02 – User DBA Logged in.
+INFO 2013-01-26 08:16:06 – User DBA logged out
+INFO 2013-01-26 08:17:30 – User DBA Logged in.
+INFO 2013-01-26 08:17:50 – User DBA Logged in.
+INFO 2013-01-26 08:17:54 – User DBA logged out
+INFO 2013-01-26 08:17:57 – User DBA Logged in.
+INFO 2013-01-26 08:18:00 – User DBA logged out
+INFO 2013-01-26 08:18:09 – User DBA Logged in.
+INFO 2013-01-26 08:18:12 – User DBA logged out
+INFO 2013-01-26 08:18:18 – User James2 Logged in.
+INFO 2013-01-26 08:18:20 – User James2 logged out
+INFO 2013-01-26 08:18:25 – User James1 Logged in.
+INFO 2013-01-26 08:18:29 – User James1 logged out
+INFO 2013-01-26 08:25:26 – User DBA Logged in.

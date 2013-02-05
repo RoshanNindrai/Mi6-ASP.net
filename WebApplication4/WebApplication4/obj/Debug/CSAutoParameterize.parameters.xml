@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Connection String used in web.config by the application to access the database." defaultvalue="Data Source=Roshan-PC;Initial Catalog=SecureDatabase;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+  <parameter name="TestConnectionString-Web.config Connection String" description="TestConnectionString Connection String used in web.config by the application to access the database." defaultvalue="Data Source=Roshan-PC;Initial Catalog=Test;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='TestConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="Test-Web.config Connection String" description="Test Connection String used in web.config by the application to access the database." defaultvalue="Data Source=Roshan-PC;Initial Catalog=Test;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='Test']/@connectionString" />
+  </parameter>
+  <parameter name="SecureDatabase-Web.config Connection String" description="SecureDatabase Connection String used in web.config by the application to access the database." defaultvalue="Data Source=Roshan-PC;Initial Catalog=SecureDatabase;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\web\.config$" match="/configuration/connectionStrings/add[@name='SecureDatabase']/@connectionString" />
+  </parameter>
+</parameters>
