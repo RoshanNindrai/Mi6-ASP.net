@@ -9,6 +9,8 @@ using System.Data.SqlClient;
 using System.Data;
 using System.IO;
 using System.Net.Mail;
+using System.Web.Security;
+using System.Configuration;
 namespace WebApplication4
 {
     public partial class WebForm3 : System.Web.UI.Page
@@ -18,10 +20,11 @@ namespace WebApplication4
         _Default loggerobj = new _Default();
         byte[] byteimage;
         String encryption_key = "Thisisourkeyforencryptioninourpr0jectAESxxx";
-        SqlConnection connection = new SqlConnection("Server=tcp:dmhec6bljx.database.windows.net,1433;Database=SecureDatabase;User ID=roshan1989@dmhec6bljx;Password=Myyearofbirth89;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
+        SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ApplicationServices"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["username"] == null || String.IsNullOrEmpty(Session["username"].ToString()))
+            Boolean flag = Roles.IsUserInRole("M");
+            if ((!flag) && (Session["username"] == null || String.IsNullOrEmpty(Session["username"].ToString())))
             {
                 Response.Redirect("user_login.aspx");
             }

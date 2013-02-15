@@ -88,3 +88,120 @@ INFO 2013-01-26 08:18:20 – User James2 logged out
 INFO 2013-01-26 08:18:25 – User James1 Logged in.
 INFO 2013-01-26 08:18:29 – User James1 logged out
 INFO 2013-01-26 08:25:26 – User DBA Logged in.
+INFO 2013-01-26 08:26:29 – User DBA Logged in.
+INFO 2013-01-26 08:26:54 – User DBA Logged in.
+INFO 2013-01-26 08:31:12 – User DBA Logged in.
+INFO 2013-01-26 08:31:45 – User DBA Logged in.
+INFO 2013-01-26 08:32:15 – User M1 Logged in.
+INFO 2013-01-26 08:32:28 – User M1 Logged in.
+INFO 2013-01-26 08:39:56 – User DBA Logged in.
+INFO 2013-01-26 08:40:11 – User James1 Logged in.
+INFO 2013-01-26 08:45:53 – User DBA Logged in.
+INFO 2013-01-26 08:46:00 – User James1 Logged in.
+INFO 2013-01-26 08:46:43 – User M1 Logged in.
+INFO 2013-01-26 08:47:55 – user :M1 viewed job of user name James1
+WARN 2013-01-26 08:47:56 – user :M1 deleted a job for user name James1
+INFO 2013-01-26 08:47:59 – user :M1 viewed job of user name James1
+INFO 2013-01-26 08:48:05 – User M1 Logged in.
+INFO 2013-01-26 09:09:16 – User DBA Logged in.
+INFO 2013-01-26 09:16:46 – User DBA Logged in.
+INFO 2013-01-26 09:53:16 – User DBA Logged in.
+INFO 2013-01-26 09:53:55 – User DBA Logged in.
+INFO 2013-01-26 09:55:33 – User DBA Logged in.
+INFO 2013-01-26 09:56:23 – User DBA Logged in.
+INFO 2013-01-26 09:58:50 – User DBA Logged in.
+INFO 2013-01-26 09:59:56 – User DBA Logged in.
+INFO 2013-01-26 10:00:44 – User DBA Logged in.
+INFO 2013-01-26 10:01:12 – User DBA Logged in.
+INFO 2013-01-26 10:18:15 – User M1 Logged in.
+WARN 2013-01-26 10:18:24 – user :M1 tried to view the job for user name fidda1
+INFO 2013-01-26 10:18:28 – user :M1 viewed job of user name James1
+INFO 2013-01-26 10:18:30 – user :M1 viewed job of user name James1
+WARN 2013-01-26 10:18:32 – user :M1 deleted a job for user name James1
+WARN 2013-01-26 10:18:33 – user :M1 deleted a job for user name James1
+WARN 2013-01-26 10:18:34 – user :M1 deleted a job for user name James1
+INFO 2013-01-26 10:18:35 – user :M1 viewed job of user name James1
+INFO 2013-01-26 10:18:36 – user :M1 viewed job of user name James1
+WARN 2013-01-26 10:18:37 – user :M1 deleted a job for user name James1
+WARN 2013-01-26 10:18:37 – user :M1 deleted a job for user name James1
+INFO 2013-01-26 10:19:13 – User M1 Logged in.
+WARN 2013-01-26 10:19:17 – user :M1 deleted a job for user name 
+INFO 2013-01-26 10:20:24 – User james1 Logged in.
+INFO 2013-01-26 10:20:51 – User james1 Logged in.
+INFO 2013-01-26 10:21:01 – User James1 Logged in.
+INFO 2013-01-26 10:21:06 – User M1 Logged in.
+INFO 2013-01-26 10:21:45 – user :M1 inserted a job for user name James1 Current Mission: Instabul Target Name: Mr M Briefing : K**l Him asap
+WARN 2013-01-26 10:21:50 – user :M1 tried to view the job for user name james1
+INFO 2013-01-26 10:21:55 – user :M1 viewed job of user name James1
+INFO 2013-01-27 04:20:08 – User DBA Logged in.
+INFO 2013-01-27 04:30:12 – User DBA Logged in.
+INFO 2013-01-27 04:30:56 – User DBA Logged in.
+INFO 2013-01-27 04:33:26 – User DBA Logged in.
+INFO 2013-01-29 09:46:51 – User James1 Logged in.
+INFO 2013-02-08 12:57:42 – User M1 Logged in.
+INFO 2013-02-08 12:57:52 – User James1 Logged in.
+INFO 2013-02-08 01:01:01 – User James1 Logged in.
+INFO 2013-02-08 01:01:19 – User M1 Logged in.
+INFO 2013-02-08 01:01:24 – User M1 Logged in.
+INFO 2013-02-08 01:01:30 – User M1 Logged in.
+INFO 2013-02-08 01:01:51 – User M1 Logged in.
+INFO 2013-02-08 01:02:56 – User M1 Logged in.
+INFO 2013-02-08 01:02:59 – User M1 Logged in.
+INFO 2013-02-08 01:03:13 – User M1 Logged in.
+INFO 2013-02-08 01:11:56 – User James1 Logged in.
+INFO 2013-02-08 01:12:16 – User James1 Logged in.
+INFO 2013-02-08 01:12:47 – User James1 Logged in.
+INFO 2013-02-08 01:20:36 – User M1 Logged in.
+INFO 2013-02-08 01:21:56 – User M1 Logged in.
+INFO 2013-02-08 01:23:27 – User James1 Logged in.
+INFO 2013-02-08 01:23:47 – User James1 Logged in.
+INFO 2013-02-08 01:24:12 – User James1 Logged in.
+INFO 2013-02-08 01:41:04 – User M1 Logged in.
+INFO 2013-02-08 01:42:06 – User M1 Logged in.
+INFO 2013-02-08 01:42:55 – User James1 Logged in.
+INFO 2013-02-08 01:43:02 – User James1 Logged in.
+INFO 2013-02-08 01:43:39 – User James1 Logged in.
+INFO 2013-02-08 01:43:44 – User James1 Logged in.
+INFO 2013-02-08 02:03:33 – User James1 Logged in.
+INFO 2013-02-08 02:20:20 – User DBA Logged in.
+INFO 2013-02-08 02:41:09 – User DBA Logged in.
+INFO 2013-02-08 02:41:17 – User James1 Logged in.
+INFO 2013-02-08 02:41:42 – User DBA Logged in.
+INFO 2013-02-08 02:41:45 – User DBA Logged in.
+INFO 2013-02-08 03:10:14 – User M1 Logged in.
+INFO 2013-02-08 03:10:36 – user :M1 viewed job of user name James1
+WARN 2013-02-08 03:10:44 – user :M1 deleted a job for user name James1
+INFO 2013-02-08 03:11:11 – user :M1 inserted a job for user name James1 Current Mission: &nbsp Target Name: Admin Briefing : kILL hiM
+INFO 2013-02-08 03:11:22 – User James1 Logged in.
+INFO 2013-02-08 03:12:14 – User James1 Logged in.
+INFO 2013-02-08 03:12:20 – User James1 Logged in.
+INFO 2013-02-08 03:12:32 – User James1 Logged in.
+INFO 2013-02-08 03:12:48 – User James1 Logged in.
+INFO 2013-02-13 10:17:25 – User James1 Logged in.
+INFO 2013-02-13 10:17:45 – User James2 Logged in.
+INFO 2013-02-13 10:17:53 – User M1 Logged in.
+INFO 2013-02-13 10:18:08 – user :M1 viewed job of user name James1
+WARN 2013-02-13 10:18:14 – user :M1 tried to view the job for user name James2
+INFO 2013-02-13 10:18:41 – User DBA Logged in.
+INFO 2013-02-13 10:35:14 – User DBA Logged in.
+INFO 2013-02-13 10:37:31 – User M1 Logged in.
+WARN 2013-02-13 10:39:40 – user :M1 tried to view the job for user name james1
+WARN 2013-02-13 10:39:46 – user :M1 tried to view the job for user name james2
+WARN 2013-02-13 10:39:54 – user :M1 deleted a job for user name james1
+INFO 2013-02-13 10:40:04 – User M1 Logged in.
+INFO 2013-02-13 10:41:10 – user :M1 viewed job of user name James1
+INFO 2013-02-13 10:41:20 – user :M1 viewed job of user name James1
+WARN 2013-02-13 10:41:22 – user :M1 deleted a job for user name James1
+INFO 2013-02-13 10:41:47 – user :M1 inserted a job for user name James1 Current Mission: Get an A Target Name: Raj Briefing : dfsdfsdf
+INFO 2013-02-13 10:41:58 – user :M1 viewed job of user name James1
+WARN 2013-02-13 10:46:21 – user :M1 deleted a job for user name James1
+INFO 2013-02-13 10:46:57 – User M1 Logged in.
+INFO 2013-02-13 10:50:34 – user :M1 inserted a job for user name James1 Current Mission: Get an A Target Name: Raj Briefing : hgasdkjakdfgadkf jfdkskdfg
+INFO 2013-02-13 10:50:51 – user :M1 viewed job of user name James1
+WARN 2013-02-13 10:51:59 – user :M1 tried to view the job for user name James2
+INFO 2013-02-15 11:39:21 – User DBA Logged in.
+INFO 2013-02-15 11:40:48 – User James1 Logged in.
+INFO 2013-02-15 11:41:10 – User James1 Logged in.
+INFO 2013-02-15 11:41:34 – User James1 Logged in.
+INFO 2013-02-15 11:41:41 – User James2 Logged in.
+INFO 2013-02-15 11:48:51 – User James2 Logged in.

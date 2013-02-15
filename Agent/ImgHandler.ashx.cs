@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
 using System.Data;
+using System.Configuration;
 
 namespace WebApplication4
 {
@@ -22,7 +23,7 @@ namespace WebApplication4
             WebForm1 DBAobject = new WebForm1();
             SqlDataReader input_data;
             SqlCommand SelectCommand;
-            SqlConnection connection = new SqlConnection("Server=tcp:dmhec6bljx.database.windows.net,1433;Database=SecureDatabase;User ID=roshan1989@dmhec6bljx;Password=Myyearofbirth89;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
+            SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ApplicationServices"].ConnectionString);
             SelectCommand = new SqlCommand("SELECT * FROM agent_job where User_name= @username", connection);
             SelectCommand.Parameters.Add("@username", SqlDbType.VarChar).Value = DBAobject.encryptPlaintext(user_name, encryption_key);
             connection.Open();

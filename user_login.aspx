@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="user_login.aspx.cs" Inherits="WebApplication4._Default" %>
+    CodeBehind="user_login.aspx.cs" Inherits="WebApplication4._Default" ValidateRequest="true" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

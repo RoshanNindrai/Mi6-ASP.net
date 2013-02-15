@@ -17,9 +17,11 @@ namespace WebApplication4
           
           Page.Response.Cache.SetCacheability(HttpCacheability.NoCache);
 
-             Session["username"] = User.Identity.Name;
+            
+
            
-            if (User.Identity.IsAuthenticated)
+             Session["username"] = User.Identity.Name;
+            if (User.Identity.IsAuthenticated&& Session["username"]!=null)
             {
                 
                 if (User.IsInRole("super dba"))
@@ -42,6 +44,7 @@ namespace WebApplication4
             else
             {
                 String logged_out = Session["username"].ToString();
+                
                 Page.Response.Cache.SetCacheability(HttpCacheability.NoCache);
             }
         }

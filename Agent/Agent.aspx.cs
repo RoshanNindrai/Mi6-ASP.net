@@ -10,6 +10,8 @@ using System.IO;
 using System.Text;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Web.Security;
+using System.Configuration;
 
 namespace WebApplication4
 {
@@ -18,14 +20,16 @@ namespace WebApplication4
         String encryption_key = "Thisisourkeyforencryptioninourpr0jectAESxxx";
         WebForm1 DBAobject = new WebForm1();
         MemoryStream stream = new MemoryStream();
-        SqlConnection connection = new SqlConnection("Server=tcp:dmhec6bljx.database.windows.net,1433;Database=SecureDatabase;User ID=roshan1989@dmhec6bljx;Password=Myyearofbirth89;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
+        SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ApplicationServices"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-
-            if (Session["username"] == null || String.IsNullOrEmpty(Session["username"].ToString()))
+            if (User.Identity.IsAuthenticated == true)
             {
-                Response.Redirect("user_login.aspx");
+                Boolean role = Roles.IsUserInRole("Agent");
+                if (((!Roles.IsUserInRole("Agent"))) && (Session["username"] == null || String.IsNullOrEmpty(Session["username"].ToString())))
+                {
+                    Response.Redirect("user_login.aspx");
+                }
             }
             SqlDataAdapter adapter = new SqlDataAdapter();
             String user_name = User.Identity.Name.ToString();

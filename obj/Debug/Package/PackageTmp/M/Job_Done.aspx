@@ -32,5 +32,7 @@
 &nbsp;&nbsp;
         <asp:Button ID="Button2" runat="server" onclick="Button2_Click" Text="Delete" 
             Width="73px" />
+    &nbsp;<asp:Button ID="Button3" runat="server" onclick="Button3_Click" Text="Back" 
+            Width="70px" />
     </p>
 </asp:Content>

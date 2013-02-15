@@ -35,7 +35,6 @@
                                         ToolTip="value is required." ValidationGroup="CreateUserWizard1">*</asp:RequiredFieldValidator>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Status:&nbsp;&nbsp;&nbsp;
                                     <asp:DropDownList ID="DropDownList3" runat="server">
-                                        <asp:ListItem>Super DBA</asp:ListItem>
                                         <asp:ListItem>M</asp:ListItem>
                                         <asp:ListItem>Agent</asp:ListItem>
                                     </asp:DropDownList>

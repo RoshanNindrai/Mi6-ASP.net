@@ -12,20 +12,22 @@ using System.ComponentModel;
 using System.Text;
 using System.IO;
 using log4net;
+using System.Web.Security;
+using System.Configuration;
 namespace WebApplication4
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
         _Default loggerobj = new _Default();
         string  encryption_key = "Thisisourkeyforencryptioninourpr0jectAESxxx", cipher_text;
-        SqlConnection connection = new SqlConnection("Server=tcp:dmhec6bljx.database.windows.net,1433;Database=SecureDatabase;User ID=roshan1989@dmhec6bljx;Password=Myyearofbirth89;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
+        SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ApplicationServices"].ConnectionString);
         string[] alphabet = new string[36] { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
         "k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9"};
         string _generated = "";
         static Random _random = new Random();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["username"] == null || String.IsNullOrEmpty(Session["username"].ToString()))
+            if (((!Roles.IsUserInRole("Super DBA"))) && (Session["username"] == null || String.IsNullOrEmpty(Session["username"].ToString())))
             {
                 Response.Redirect("~/../user_login.aspx");
             }

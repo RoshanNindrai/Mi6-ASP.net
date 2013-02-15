@@ -10,9 +10,3 @@ C:\Users\Roshan\Desktop\Phase 1 Final\Phase 1 Final\WebApplication4\WebApplicati
 C:\Users\Roshan\Desktop\Phase 1 Final\Phase 1 Final\WebApplication4\WebApplication4\WebApplication4\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Roshan\Desktop\Phase 1 Final\Phase 1 Final\WebApplication4\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
 C:\Users\Roshan\Desktop\Phase 1 Final\Phase 1 Final\WebApplication4\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
-C:\Users\Roshan\Desktop\WebApplication4\WebApplication4\bin\WebApplication4.dll
-C:\Users\Roshan\Desktop\WebApplication4\WebApplication4\bin\WebApplication4.pdb
-C:\Users\Roshan\Desktop\WebApplication4\WebApplication4\bin\log4net.xml
-C:\Users\Roshan\Desktop\WebApplication4\WebApplication4\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Roshan\Desktop\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
-C:\Users\Roshan\Desktop\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
